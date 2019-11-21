@@ -30,3 +30,21 @@
 [2019-11-20 19:27:45.985] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extension
 [2019-11-20 19:27:46.042] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
 [2019-11-20 19:27:46.043] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/markdown-language-features/dist/extension
+[2019-11-20 20:27:06.677] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-11-20 20:27:06.680] [exthost] [error] undefined
+[2019-11-20 20:27:24.316] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-11-20 20:27:24.316] [exthost] [error] undefined
+[2019-11-20 20:27:37.340] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-11-20 20:27:37.340] [exthost] [error] undefined
+[2019-11-20 20:27:40.992] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-11-20 20:27:40.992] [exthost] [error] undefined
+[2019-11-20 20:27:57.624] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-11-20 20:27:57.624] [exthost] [error] undefined
+[2019-11-20 20:28:05.726] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-11-20 20:28:05.726] [exthost] [error] undefined
+[2019-11-20 20:28:18.555] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-11-20 20:28:18.555] [exthost] [error] undefined
+[2019-11-20 20:28:25.002] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-11-20 20:28:25.002] [exthost] [error] undefined
+[2019-11-20 20:31:51.246] [exthost] [error] [ms-vscode.Go] provider FAILED
+[2019-11-20 20:31:51.246] [exthost] [error] undefined

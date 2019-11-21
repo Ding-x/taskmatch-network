@@ -1,0 +1,1210 @@
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+

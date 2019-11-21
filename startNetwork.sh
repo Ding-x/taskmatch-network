@@ -9,7 +9,7 @@ OS_ARCH=$(echo "$(uname -s | tr '[:upper:]' '[:lower:]' | sed 's/mingw64_nt.*/wi
 # another container before giving up
 CLI_TIMEOUT=10
 # default for delay between commands
-CLI_DELAY=3
+CLI_DELAY=1
 # system channel name defaults to "byfn-sys-channel"
 SYS_CHANNEL="taskmatch-sys-channel"
 # channel name defaults to "mychannel"

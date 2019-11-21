@@ -15,7 +15,7 @@ PEER0_ORG5_CA=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrga
 PEER0_ORG6_CA=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org6.example.com/peers/peer0.org6.example.com/tls/ca.crt
 PEER0_ORG7_CA=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org7.example.com/peers/peer0.org7.example.com/tls/ca.crt
 
-CC_VERSION=4.043
+CC_VERSION=4.047
 
 # verify the result of the end-to-end test
 verifyResult() {
@@ -141,7 +141,6 @@ joinChannelWithRetry() {
   set +x
   cat log.txt
 
-  echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~'$res'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
   if [ $res -ne 0 -a $COUNTER -lt $MAX_RETRY ]; then
     COUNTER=$(expr $COUNTER + 1)
@@ -211,7 +210,7 @@ chaincodeInvoke() {
   ## Creating a taskmatching to be solved on the network:
   set -x
   echo "Creating a taskmatching:"
-  peer chaincode invoke -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["createTaskMatching", "work", "[[1,2,3],[4,5,6],[7,8,9],[10,11,12]]"]}'
+  peer chaincode invoke -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["createTaskMatching", "work", "[[1,5,9],[2,6,10],[11,7,3],[12,8,4]]"]}'
   res=$?
   set +x
 
@@ -279,6 +278,45 @@ chaincodeInvoke() {
     exit 1
   fi
 
+  set -x
+  echo "Read the current peer statuses"
+  peer chaincode query -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["readTaskMatching", "p4"]}'
+  res=$?
+  set +x
+
+  if [ $res -ne 0 ]; then
+    echo "!!!!!!!!!!!!!!! "$2" !!!!!!!!!!!!!!!!"
+    echo "========= ERROR !!! FAILED to read taskmatching! ==========="
+    echo
+    exit 1
+  fi
+
+  set -x
+  echo "Read the current peer statuses"
+  peer chaincode query -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["readTaskMatching", "p5"]}'
+  res=$?
+  set +x
+
+  if [ $res -ne 0 ]; then
+    echo "!!!!!!!!!!!!!!! "$2" !!!!!!!!!!!!!!!!"
+    echo "========= ERROR !!! FAILED to read taskmatching! ==========="
+    echo
+    exit 1
+  fi
+
+  set -x
+  echo "Read the current peer statuses"
+  peer chaincode query -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["readTaskMatching", "p6"]}'
+  res=$?
+  set +x
+
+  if [ $res -ne 0 ]; then
+    echo "!!!!!!!!!!!!!!! "$2" !!!!!!!!!!!!!!!!"
+    echo "========= ERROR !!! FAILED to read taskmatching! ==========="
+    echo
+    exit 1
+  fi
+
 
   ##The following setGlobals aren't mandatory however, they represent the different peers running the calculations.
   setGlobals 0 1
@@ -318,6 +356,54 @@ chaincodeInvoke() {
   set -x
   echo "Calculating Task Matching"
   peer chaincode invoke -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["calculateTaskMatching", "p3"]}'
+  res=$?
+  set +x
+
+  if [ $res -ne 0 ]; then
+    echo "!!!!!!!!!!!!!!! "$2" !!!!!!!!!!!!!!!!"
+    echo "========= ERROR !!! FAILED to calculate taskmatching! ==========="
+    echo
+    exit 1
+  fi
+
+  sleep 3
+
+  setGlobals 0 4
+  set -x
+  echo "Calculating Task Matching"
+  peer chaincode invoke -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["calculateTaskMatching", "p4"]}'
+  res=$?
+  set +x
+
+  if [ $res -ne 0 ]; then
+    echo "!!!!!!!!!!!!!!! "$2" !!!!!!!!!!!!!!!!"
+    echo "========= ERROR !!! FAILED to calculate taskmatching! ==========="
+    echo
+    exit 1
+  fi
+
+  sleep 3
+
+  setGlobals 0 5
+  set -x
+  echo "Calculating Task Matching"
+  peer chaincode invoke -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["calculateTaskMatching", "p5"]}'
+  res=$?
+  set +x
+
+  if [ $res -ne 0 ]; then
+    echo "!!!!!!!!!!!!!!! "$2" !!!!!!!!!!!!!!!!"
+    echo "========= ERROR !!! FAILED to calculate taskmatching! ==========="
+    echo
+    exit 1
+  fi
+
+  sleep 3
+
+  setGlobals 0 6
+  set -x
+  echo "Calculating Task Matching"
+  peer chaincode invoke -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["calculateTaskMatching", "p6"]}'
   res=$?
   set +x
 
@@ -371,6 +457,44 @@ chaincodeInvoke() {
     exit 1
   fi
 
+  set -x
+  echo "Read the current peer statuses"
+  peer chaincode query -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["readTaskMatching", "p4"]}'
+  res=$?
+  set +x
+
+  if [ $res -ne 0 ]; then
+    echo "!!!!!!!!!!!!!!! "$2" !!!!!!!!!!!!!!!!"
+    echo "========= ERROR !!! FAILED to read taskmatching! ==========="
+    echo
+    exit 1
+  fi
+
+    set -x
+  echo "Read the current peer statuses"
+  peer chaincode query -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["readTaskMatching", "p5"]}'
+  res=$?
+  set +x
+
+  if [ $res -ne 0 ]; then
+    echo "!!!!!!!!!!!!!!! "$2" !!!!!!!!!!!!!!!!"
+    echo "========= ERROR !!! FAILED to read taskmatching! ==========="
+    echo
+    exit 1
+  fi
+
+    set -x
+  echo "Read the current peer statuses"
+  peer chaincode query -o orderer.example.com:7050 --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA -C $CHANNEL_NAME -n taskmatching -c '{"Args":["readTaskMatching", "p6"]}'
+  res=$?
+  set +x
+
+  if [ $res -ne 0 ]; then
+    echo "!!!!!!!!!!!!!!! "$2" !!!!!!!!!!!!!!!!"
+    echo "========= ERROR !!! FAILED to read taskmatching! ==========="
+    echo
+    exit 1
+  fi
   #Must call calculateTaskMatching method again in order for the ledger to realize that all tasks are complete (Doesn't matter which peer it's called on p1/p2/p3 all work) :
   set -x
   echo "Picking optimal taskmatching and writing the solution to the ledger"
