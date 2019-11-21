@@ -121,7 +121,7 @@ services:
       - CORE_PEER_CHAINCODELISTENADDRESS=0.0.0.0:14052
       - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer0.org5.example.com:14051
       - CORE_PEER_GOSSIP_BOOTSTRAP=peer0.org5.example.com:14051
-      - CORE_PEER_LOCALMSPID=org5MSP
+      - CORE_PEER_LOCALMSPID=Org5MSP
     volumes:
         - /var/run/:/host/var/run/
         - ../crypto-config/peerOrganizations/org5.example.com/peers/peer0.org5.example.com/msp:/etc/hyperledger/fabric/msp
@@ -143,7 +143,7 @@ services:
       - CORE_PEER_CHAINCODELISTENADDRESS=0.0.0.0:16052
       - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer0.org6.example.com:16051
       - CORE_PEER_GOSSIP_BOOTSTRAP=peer0.org6.example.com:16051
-      - CORE_PEER_LOCALMSPID=org6MSP
+      - CORE_PEER_LOCALMSPID=Org6MSP
     volumes:
         - /var/run/:/host/var/run/
         - ../crypto-config/peerOrganizations/org6.example.com/peers/peer0.org6.example.com/msp:/etc/hyperledger/fabric/msp
@@ -165,7 +165,7 @@ services:
       - CORE_PEER_CHAINCODELISTENADDRESS=0.0.0.0:18052
       - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer0.org7.example.com:18051
       - CORE_PEER_GOSSIP_BOOTSTRAP=peer0.org7.example.com:18051
-      - CORE_PEER_LOCALMSPID=org7MSP
+      - CORE_PEER_LOCALMSPID=Org7MSP
     volumes:
         - /var/run/:/host/var/run/
         - ../crypto-config/peerOrganizations/org7.example.com/peers/peer0.org7.example.com/msp:/etc/hyperledger/fabric/msp

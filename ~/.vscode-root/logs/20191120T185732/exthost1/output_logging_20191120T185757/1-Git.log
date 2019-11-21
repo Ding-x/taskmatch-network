@@ -1,0 +1,1024 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :chaincode/taskmatching/taskmatch.go
+> git check-ignore -v -z --stdin
+> git show :scripts/utils.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git check-ignore -v -z --stdin
+> git show :configtx.yaml
+> git show :crypto-config.yaml
+> git show :docker-compose-cli.yaml
+> git show :startNetwork.sh
+> git show :scripts/script.sh
+> git check-ignore -v -z --stdin
+> git show :base/docker-compose-base.yaml
+> git show :base/peer-base.yaml
+> git show :chaincode/taskmatching/taskmatch.go
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :scripts/utils.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git show :.env
+> git show :scripts/utils.sh
+> git show :configtx.yaml
+> git show :crypto-config.yaml
+> git show :configtx.yaml
+> git show :crypto-config.yaml
+> git show :configtx.yaml
+> git show :docker-compose-cli.yaml
+> git show :crypto-config.yaml
+> git show :base/peer-base.yaml
+> git show :base/docker-compose-base.yaml
+> git show :scripts/script.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :base/docker-compose-base.yaml
+> git show :base/peer-base.yaml
+> git show :channel-artifacts/genesis.block
+> git ls-files --stage -- channel-artifacts/
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :crypto-config/peerOrganizations/org5.example.com/ca/93491d61b773749a5b6d421e2a7c9acb9ae539eb93af2c6f86eade1687a79a71_sk
+> git ls-files --stage -- crypto-config/peerOrganizations/org5.example.com/ca/
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :scripts/script.sh
+> git show :crypto-config.yaml
+> git show :example_method_use
+> git show :readme.md
+> git show :docker-compose-cli.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :crypto-config.yaml
+> git show :scripts/script.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git show :startNetwork.sh
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git show :docker-compose-cli.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :crypto-config.yaml
+> git show :configtx.yaml
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git show :configtx.yaml
+> git show :crypto-config.yaml
+> git show :docker-compose-cli.yaml
+> git show :readme.md
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git show :base/peer-base.yaml
+> git show :base/docker-compose-base.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :docker-compose-cli.yaml
+> git show :crypto-config.yaml
+> git show :configtx.yaml
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git show :base/docker-compose-base.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :base/peer-base.yaml
+> git show :base/docker-compose-base.yaml
+> git show :base/peer-base.yaml
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :scripts/script.sh
+> git show :scripts/utils.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git show :scripts/script.sh
+> git show :.env
+> git show :scripts/utils.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:596797)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:101168)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:227)
+	at E.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:120038)
+> git config --get commit.template

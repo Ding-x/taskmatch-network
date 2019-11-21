@@ -114,7 +114,7 @@ sleep 3
 
  
 echo "Invoking chaincode:"
-chaincodeInvoke ## Comment out this line if you don't want the example to be run!
+##chaincodeInvoke ## Comment out this line if you don't want the example to be run!
 
 echo
 echo "========= All Tests Completed Successfully =========== "

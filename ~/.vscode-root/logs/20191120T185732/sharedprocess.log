@@ -1,0 +1,8 @@
+[2019-11-20 18:57:37.392] [sharedprocess] [info] main {"machineId":"154dfbb0115a9d56b87b5143a90a32afbd7897de13d7b11848f080f58bd35503","windowId":2}
+[2019-11-20 18:58:17.337] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-11-20 18:58:38.881] [sharedprocess] [info] Installing extension: ms-vscode.go
+[2019-11-20 18:58:51.486] [sharedprocess] [info] Downloaded extension: ms-vscode.go /tmp/3100cad7-bc1a-4e04-aca5-cd8aebe73123
+[2019-11-20 18:59:04.291] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.ms-vscode.go-0.11.9: ms-vscode.go
+[2019-11-20 18:59:04.291] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-vscode.go-0.11.9
+[2019-11-20 18:59:04.299] [sharedprocess] [info] Installation completed. ms-vscode.go
+[2019-11-20 18:59:04.315] [sharedprocess] [info] Extensions installed successfully: ms-vscode.go
