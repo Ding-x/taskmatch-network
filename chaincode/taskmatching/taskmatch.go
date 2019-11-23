@@ -21,7 +21,7 @@ type SimpleChaincode struct {
 type indexValuePair struct {
 	row int
 	col int
-	value int
+	value float32
 }
 
 type TaskMatching struct {
@@ -33,13 +33,13 @@ type Peer struct {
 	identifier string `json:"id"`
 	Status     string `json:"status"`
 	Solution   []indexValuePair  `json:"sol"`
-	Runtime    int    `json:"runtime"`
+	Runtime    float32    `json:"runtime"`
 	Name       string `json:"name"`
 }
 
 type TaskMatchingSol struct {
 	identifier string `json:"id"`
-	Runtime    int    `json:"runtime"`
+	Runtime    float32    `json:"runtime"`
 	Solution   []indexValuePair  `json:"sol"`
 	Owner      string `json:"owner"`
 	Algorithm  string `json:"alg"`
@@ -163,11 +163,11 @@ func (t *SimpleChaincode) calculateTaskMatching(stub shim.ChaincodeStubInterface
 	json.Unmarshal(TaskMatchAsBytes, &tmpTM)
 
 	//Convert matrix string to float matrix
-	var matrix [][]int = strToMatrix(tmpTM.Runtimes)
+	var matrix [][]float32 = strToMatrix(tmpTM.Runtimes)
 
 	//pass matrix to solution calculator
 	var sol []indexValuePair
-	var runtime int
+	var runtime float32
 
 	sol, runtime = Assign(matrix, args[0])
 
@@ -189,16 +189,17 @@ func (t *SimpleChaincode) calculateTaskMatching(stub shim.ChaincodeStubInterface
 	//
 }
 
-func strToMatrix(input string) [][]int {
-	var parsed [][]int
+func strToMatrix(input string) [][]float32 {
+	var parsed [][]float32
 	json.Unmarshal([]byte(input), &parsed)
 	return parsed
 }
 
-func Assign(matrix [][]int, peer string) ([]indexValuePair, int) {
+func Assign(matrix [][]float32, peer string) ([]indexValuePair, float32) {
 	var sol []indexValuePair
 	rand.Seed(time.Now().UnixNano())
-	timeCost := -1
+	var timeCost float32
+	timeCost = -1
 	if peer == "p1" {
 		sol, timeCost = assignTask(matrix,"MIN-MIN-TASK")
 	} else if peer == "p2" {
@@ -243,7 +244,7 @@ func (t *SimpleChaincode) setBestSol(stub shim.ChaincodeStubInterface) pb.Respon
 	tmpPeer := Peer{}
 	solPeer := Peer{}
 	// var min float64 = math.MaxFloat64
-	var min int = math.MaxInt8
+	var min float32 = math.MaxInt8
 
 	//find which peer found the best solution and save their information
 	for i := 0; i < len(peerArray); i++ {
@@ -373,12 +374,13 @@ func (t *SimpleChaincode) readTaskMatching(stub shim.ChaincodeStubInterface, arg
 }
 
 
-func assignTask(inputMatrix [][]int, input string) ([]indexValuePair, int) {
+func assignTask(inputMatrix [][]float32, input string) ([]indexValuePair, float32) {
 	var emptyArr []indexValuePair
-	var emptyArr1 []int
+	var emptyArr1 []float32
 	tempMatrix := inputMatrix
 	choices, timespent := helper(tempMatrix, emptyArr, emptyArr1, input) // choices contains the row and col number of the original matrix
-	timeCost := -1
+	var timeCost float32
+	timeCost = -1
 	fmt.Println(timespent)
 	for i := 0; i < len(timespent); i++ {
 		if timespent[i] > timeCost {
@@ -388,7 +390,7 @@ func assignTask(inputMatrix [][]int, input string) ([]indexValuePair, int) {
 	return choices, timeCost
 }
 
-func helper(inputMatrix [][]int, result []indexValuePair, timespent []int, input string) ([]indexValuePair, []int) {
+func helper(inputMatrix [][]float32, result []indexValuePair, timespent []float32, input string) ([]indexValuePair, []float32) {
 	if len(inputMatrix) == 1 {
 		var incides  []indexValuePair
 		inputArr := strings.Split(input,"-")
@@ -445,10 +447,10 @@ func helper(inputMatrix [][]int, result []indexValuePair, timespent []int, input
 	return helper(tempMatrix, result, timespent, input)
 }
 
-func getminIndicesByRow(inputMatrix [][]int) []indexValuePair {
+func getminIndicesByRow(inputMatrix [][]float32) []indexValuePair {
 	result := make([]indexValuePair, len(inputMatrix))
 	for i := 0; i < len(inputMatrix); i++ {
-		var minofRow int = math.MaxInt16
+		var minofRow float32 = math.MaxInt16
 		for j := 0; j < len(inputMatrix[i]); j++ {
 			if inputMatrix[i][j] < minofRow {
 				minofRow = inputMatrix[i][j]
@@ -461,11 +463,11 @@ func getminIndicesByRow(inputMatrix [][]int) []indexValuePair {
 	return result
 }
 
-func getminIndicesByCol(inputMatrix [][]int) []indexValuePair {
+func getminIndicesByCol(inputMatrix [][]float32) []indexValuePair {
 
 	result := make([]indexValuePair, len(inputMatrix[0]))
 	for j := 0; j < len(inputMatrix[0]); j++ {
-		var minofCol int = math.MaxInt16
+		var minofCol float32 = math.MaxInt16
 		for i := 0; i < len(inputMatrix); i++ {
 			if inputMatrix[i][j] < minofCol {
 				minofCol = inputMatrix[i][j]
@@ -478,10 +480,10 @@ func getminIndicesByCol(inputMatrix [][]int) []indexValuePair {
 	return result
 }
 
-func getmaxIndicesByRow(inputMatrix [][]int) []indexValuePair {
+func getmaxIndicesByRow(inputMatrix [][]float32) []indexValuePair {
 	result := make([]indexValuePair, len(inputMatrix))
 	for i := 0; i < len(inputMatrix); i++ {
-		var maxofRow int = -1
+		var maxofRow float32 = -1
 		for j := 0; j < len(inputMatrix[i]); j++ {
 			if inputMatrix[i][j] > maxofRow {
 				maxofRow = inputMatrix[i][j]
@@ -494,10 +496,10 @@ func getmaxIndicesByRow(inputMatrix [][]int) []indexValuePair {
 	return result
 }
 
-func getmaxIndicesByCol(inputMatrix [][]int) []indexValuePair {
+func getmaxIndicesByCol(inputMatrix [][]float32) []indexValuePair {
 	result := make([]indexValuePair, len(inputMatrix[0]))
 	for j := 0; j < len(inputMatrix[0]); j++ {
-		var maxofCol int = -1
+		var maxofCol float32 = -1
 		for i := 0; i < len(inputMatrix); i++ {
 			if inputMatrix[i][j] > maxofCol {
 				maxofCol = inputMatrix[i][j]
@@ -511,7 +513,7 @@ func getmaxIndicesByCol(inputMatrix [][]int) []indexValuePair {
 }
 
 func getMaxIndexValuePair(inputMatrix []indexValuePair) indexValuePair {
-	var max int = -1
+	var max float32 = -1
 	var maxPair indexValuePair
 	for i := 0; i < len(inputMatrix); i++ {
 		if inputMatrix[i].value > max {
@@ -523,7 +525,7 @@ func getMaxIndexValuePair(inputMatrix []indexValuePair) indexValuePair {
 }
 
 func getMinIndexValuePair(inputMatrix []indexValuePair) indexValuePair {
-	var min int = math.MaxInt16
+	var min float32 = math.MaxInt16
 	var minPair indexValuePair
 	for i := 0; i < len(inputMatrix); i++ {
 		if inputMatrix[i].value < min {
@@ -534,10 +536,10 @@ func getMinIndexValuePair(inputMatrix []indexValuePair) indexValuePair {
 	return minPair
 }
 
-func shrinkMatrixRow(inputMatrix [][]int, rowRemoved int) [][]int {
-	result := make([][]int, len(inputMatrix)-1)
+func shrinkMatrixRow(inputMatrix [][]float32, rowRemoved int) [][]float32 {
+	result := make([][]float32, len(inputMatrix)-1)
 	for c := range result {
-		result[c] = make([]int, len(inputMatrix[c]))
+		result[c] = make([]float32, len(inputMatrix[c]))
 	}
 	if len(inputMatrix) == 1 {
 		return inputMatrix

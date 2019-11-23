@@ -1208,3 +1208,1310 @@ Starting building the current package at /root/go/src/github.com/hyperledger/fab
 /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
 /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
 
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:19: undefined: fm
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:19: undeclared name: fm
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:19: fmt.Printf evaluated but not used
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:19: fmt.Printf (value of type func(format string, a ...interface{}) (n int, err error)) is not used
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:19: cannot use twoD (type [][]int) as type string in argument to fmt.Printf
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:19: cannot use twoD (variable of type [][]int) as string value in argument to fmt.Printf
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:26: undefined: float
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:26: undeclared name: float
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:26: expected type, found "%d\n" (and 10 more errors)
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:26: missing function body
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:26: syntax error: unexpected literal "%d\n", expecting type
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:28: syntax error: non-declaration statement outside function body
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:26: undeclared name: float
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:26: undefined: float
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:29: cannot use parsed (type [][]int) as type [][]float32 in return argument
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:29: cannot use parsed (variable of type [][]int) as [][]float32 value in return statement
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (type [][]float32) as type [][]int in argument to assignTask
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:18: cannot use twoD (variable of type [][]float32) as [][]int value in argument to assignTask
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:36: cannot use tempMatrix (type [][]float32) as type [][]int in argument to helper
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:36: cannot use tempMatrix (variable of type [][]float32) as [][]int value in argument to helper
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:36: cannot use tempMatrix (type [][]float32) as type [][]int in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:36: cannot use emptyArr1 (type []float32) as type []int in argument to helper
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:36: cannot use tempMatrix (variable of type [][]float32) as [][]int value in argument to helper
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:36: cannot use emptyArr1 (type []float32) as type []int in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:53: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:78: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:53: cannot use inputMatrix (variable of type [][]float32) as [][]int value in argument to getminIndicesByRow
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:53: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:70: cannot use valuePair.value (type int) as type float32 in append
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:71: cannot use timespent (type []float32) as type []int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:78: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:53: cannot use inputMatrix (variable of type [][]float32) as [][]int value in argument to getminIndicesByRow
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:53: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:70: cannot use valuePair.value (type int) as type float32 in append
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:78: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:53: cannot use inputMatrix (variable of type [][]float32) as [][]int value in argument to getminIndicesByRow
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:109: cannot compare inputMatrix[i][j] < minofRow (mismatched types float32 and int)
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:70: cannot use valuePair.value (type int) as type float32 in append
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: too many errors
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:113: cannot use minofRow (variable of type float32) as int value in assignment
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:70: cannot use valuePair.value (type int) as type float32 in append
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: too many errors
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:70: cannot use valuePair.value (type int) as type float32 in append
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:107: MaxF not declared by package math
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:70: cannot use valuePair.value (type int) as type float32 in append
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:107: MaxFloat not declared by package math
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:70: cannot use valuePair.value (type int) as type float32 in append
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:113: cannot use minofRow (variable of type float32) as int value in assignment
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:70: cannot use valuePair.value (type int) as type float32 in append
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:109: cannot compare inputMatrix[i][j] < minofRow (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:70: cannot use valuePair.value (type int) as type float32 in append
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:113: cannot use minofRow (variable of type float32) as int value in assignment
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: cannot compare inputMatrix[i].value < min (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:57: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:82: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getminIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: cannot compare inputMatrix[i].value < min (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: cannot compare inputMatrix[i].value < min (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:55: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:80: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: cannot compare inputMatrix[i].value < min (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:142: invalid operation: inputMatrix[i][j] > maxofRow (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:143: cannot use inputMatrix[i][j] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:143: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: cannot compare inputMatrix[i].value < min (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:162: cannot use maxofCol (type int) as type float32 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:173: invalid operation: inputMatrix[i].value > max (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:173: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: cannot compare inputMatrix[i].value < min (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:59: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:84: cannot use inputMatrix (type [][]float32) as type [][]int in argument to getmaxIndicesByCol
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:162: cannot use maxofCol (type int) as type float32 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:173: invalid operation: inputMatrix[i].value > max (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:173: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: cannot compare inputMatrix[i].value < min (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:158: invalid operation: inputMatrix[i][j] > maxofCol (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:159: cannot use inputMatrix[i][j] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:162: cannot use maxofCol (type int) as type float32 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:173: invalid operation: inputMatrix[i].value > max (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:173: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: cannot compare inputMatrix[i].value < min (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:173: invalid operation: inputMatrix[i].value > max (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:174: cannot use inputMatrix[i].value (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: invalid operation: inputMatrix[i].value < min (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:186: cannot use inputMatrix[i].value (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:186: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: cannot compare inputMatrix[i].value < min (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:173: invalid operation: inputMatrix[i].value > max (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:174: cannot use inputMatrix[i].value (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: invalid operation: inputMatrix[i].value < min (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:186: cannot use inputMatrix[i].value (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:186: too many errors
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: cannot compare inputMatrix[i].value < min (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: invalid operation: inputMatrix[i].value < min (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:186: cannot use inputMatrix[i].value (type float32) as type int in assignment
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:185: cannot compare inputMatrix[i].value < min (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (type [][]float32) as type [][]int in argument to shrinkMatrixRow
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:95: cannot use inputMatrix (variable of type [][]float32) as [][]int value in argument to shrinkMatrixRow
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:199: cannot use inputMatrix (type [][]float32) as type [][]int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:205: cannot use inputMatrix[OriRow] (type []float32) as type []int in assignment
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:199: cannot use inputMatrix (variable of type [][]float32) as [][]int value in return statement
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:196: cannot use make([]int, len(inputMatrix[c])) (type []int) as type []float32 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:199: cannot use inputMatrix (type [][]float32) as type [][]int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:209: cannot use result (type [][]float32) as type [][]int in return argument
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:196: cannot use make([]int, len(inputMatrix[c])) (value of type []int) as []float32 value in assignment
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:97: invalid operation: tempMatrix[i][valuePair.col] += valuePair.value (mismatched types int and float32)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:101: cannot use tempMatrix (type [][]int) as type [][]float32 in argument to helper
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:199: cannot use inputMatrix (type [][]float32) as type [][]int in return argument
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:209: cannot use result (type [][]float32) as type [][]int in return argument
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:199: cannot use inputMatrix (variable of type [][]float32) as [][]int value in return statement
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type int in return argument
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: cannot compare timespent[i] > timeCost (mismatched types float32 and float64)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and float64)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type float64 in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type float64) as type float32 in return argument
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: cannot compare timespent[i] > timeCost (mismatched types float32 and float64)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: invalid operation: timespent[i] > timeCost (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot use timespent[i] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:44: cannot use timeCost (type int) as type float32 in return argument
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:40: cannot compare timespent[i] > timeCost (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: invalid operation: timespent[i] > timeCost (mismatched types float32 and int)
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:42: cannot use timespent[i] (type float32) as type int in assignment
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:45: cannot use timeCost (type int) as type float32 in return argument
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:41: cannot compare timespent[i] > timeCost (mismatched types float32 and int)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:37: syntax error: unexpected newline, expecting type
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:37: missing variable type or initialization
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:37: syntax error: unexpected newline, expecting type
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:38: no new variables on left side of :=
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:37: missing variable type or initialization
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:38: no new variables on left side of :=
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:38: no new variables on left side of :=
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:20: Printf format %d has arg choices[i] of wrong type github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network.indexValuePair
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:23: Printf format %d has arg cost of wrong type float32
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:20: Printf format %f has arg choices[i] of wrong type github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network.indexValuePair
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:23: Printf format %d has arg cost of wrong type float32
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:20: Printf format %d has arg choices[i] of wrong type github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network.indexValuePair
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:23: Printf format %d has arg cost of wrong type float32
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:20: Printf format %f has arg choices[i] of wrong type github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network.indexValuePair
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:23: Printf format %d has arg cost of wrong type float32
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:20: Printf format %f has arg choices[i] of wrong type github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network.indexValuePair
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:20: Printf format %F has arg choices[i] of wrong type github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network.indexValuePair
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:20: Printf format %d has arg choices[i] of wrong type github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network.indexValuePair
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:20: choices[i].v undefined (type indexValuePair has no field or method v)
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:20: choices[i].v undefined (type indexValuePair has no field or method v)
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/main.go:20: Printf format %d has arg choices[i].value of wrong type float32
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go vet .
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+Starting linting the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting "go vet" under the folder /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+Starting building the current package at /root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go vet .
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching>Finished running tool: /usr/local/go/bin/go build -i -o /tmp/vscode-go9Wh4a8/go-code-check github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:13: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+/root/go/src/github.com/hyperledger/fabric/scripts/fabric-samples/taskmatch-network/chaincode/taskmatching/taskmatch.go:14: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+
