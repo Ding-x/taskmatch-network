@@ -1,40 +1,115 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"math"
+	"math/rand"
 	"strings"
 )
 
 type indexValuePair struct {
 	row int
 	col int
-	value float32
+	value float64
 }
 
 func main() {
-	var twoD = strToMatrix("[[6.3,2.8,3.7],[4.2,9.4,1.8],[7.2,8.3,5.5],[4.7,6.4,8.1]]")
-	var choices, cost = assignTask(twoD,"MAX-MIN-RESOURCE")
-	for i := 0; i < len(choices); i++ {
-		fmt.Printf("%f\n", choices[i].value)
+	ETC := ETCgenerator(100, 10, "low", "low")
+	ETC1 := deepcopy(ETC)
+	ETC2 := deepcopy(ETC)
+	ETC3 := deepcopy(ETC)
+	ETC4 := deepcopy(ETC)
+	ETC5 := deepcopy(ETC)
+
+	fmt.Printf("%.2f\n\n",ETC)
+
+	var _, cost = assignTask(ETC,"MIN-MIN-RESOURCE")
+	fmt.Printf("%.2f\n\n", cost)
+
+	 _, cost = assignTask(ETC1,"MAX-MIN-RESOURCE")
+	fmt.Printf("%.2f\n\n", cost)
+
+	_, cost = assignTask(ETC2,"MIN-MAX-RESOURCE")
+	fmt.Printf("%.2f\n\n", cost)
+
+	 _, cost = assignTask(ETC3,"MIN-MIN-TASK")
+	fmt.Printf("%.2f\n\n", cost)
+
+	 _, cost = assignTask(ETC4,"MAX-MIN-TASK")
+	fmt.Printf("%.2f\n\n", cost)
+
+	 _, cost = assignTask(ETC5,"MIN-MAX-TASK")
+	fmt.Printf("%.2f\n\n", cost)
+
+
+}
+
+
+func deepcopy(inputMatrix [][]float64) [][]float64 {
+	result := make([][]float64, len(inputMatrix))
+	for i := range result {
+		result[i] = make([]float64, len(inputMatrix[i]))
 	}
-	fmt.Printf("\n")
-	fmt.Printf("%f\n\n", cost)
+	for i := 0; i < len(inputMatrix); i++ {
+		for j := 0; j < len(inputMatrix[i]); j++ {
+			result[i][j] = inputMatrix[i][j]
+		}
+	}
+	return result
 }
 
-func strToMatrix(input string) [][]float32 {
-	var parsed [][]float32
-	json.Unmarshal([]byte(input), &parsed)
-	return parsed
+// ETCgenerator : generate an ETC matrix based on # tasks, resources, heterogenety of task and resource
+func ETCgenerator(task int, resource int, taskHetero string, resourceHetero string) [][]float64 {
+	result := make([][]float64, task)
+	for i := range result {
+		result[i] = make([]float64, resource)
+	}
+	var taskBound float64
+	var resourceBound float64
+
+	if taskHetero == "hi" {
+		taskBound = 3000
+	} else {
+		taskBound = 100
+	}
+
+	if resourceHetero == "hi" {
+		resourceBound = 1000
+	} else {
+		resourceBound = 10
+	}
+
+	for i := range result {
+		result[i][0] = rand.Float64()*(taskBound-1.0) + 1.0
+	}
+
+	start := 1
+
+	for i := 0; i < task; i++ {
+		start = 1
+		for j := 0; j < resource; j++ {
+			if j == (resource - 1) {
+				start = resource - 1
+			}
+			result[i][start] = result[i][0] * (rand.Float64()*(resourceBound-1.0) + 1.0)
+			start++
+		}
+	}
+
+	for i := 0; i < task; i++ {
+		result[i][0] = result[i][0] * (rand.Float64()*(resourceBound-1.0) + 1.0)
+	}
+
+	return result
 }
 
-func assignTask(inputMatrix [][]float32, input string) ([]indexValuePair, float32) {
+
+func assignTask(inputMatrix [][]float64, input string) ([]indexValuePair, float64) {
 	var emptyArr []indexValuePair
-	var emptyArr1 []float32
+	var emptyArr1 []float64
 	tempMatrix := inputMatrix
 	choices, timespent := helper(tempMatrix, emptyArr, emptyArr1, input) // choices contains the row and col number of the original matrix
-	var timeCost float32
+	var timeCost float64
 	timeCost = -1
 	fmt.Println(timespent)
 	for i := 0; i < len(timespent); i++ {
@@ -45,7 +120,9 @@ func assignTask(inputMatrix [][]float32, input string) ([]indexValuePair, float3
 	return choices, timeCost
 }
 
-func helper(inputMatrix [][]float32, result []indexValuePair, timespent []float32, input string) ([]indexValuePair, []float32) {
+func helper(inputMatrix [][]float64, result []indexValuePair, timespent []float64, input string) ([]indexValuePair, []float64) {
+
+
 	if len(inputMatrix) == 1 {
 		var incides  []indexValuePair
 		inputArr := strings.Split(input,"-")
@@ -59,6 +136,7 @@ func helper(inputMatrix [][]float32, result []indexValuePair, timespent []float3
 		}else if inputArr[0]=="MAX" && inputArr[2]=="RESOURCE"{
 			incides = getmaxIndicesByCol(inputMatrix)
 		}
+
 
 		var valuePair indexValuePair
 		if inputArr[1]=="MIN"{
@@ -102,10 +180,10 @@ func helper(inputMatrix [][]float32, result []indexValuePair, timespent []float3
 	return helper(tempMatrix, result, timespent, input)
 }
 
-func getminIndicesByRow(inputMatrix [][]float32) []indexValuePair {
+func getminIndicesByRow(inputMatrix [][]float64) []indexValuePair {
 	result := make([]indexValuePair, len(inputMatrix))
 	for i := 0; i < len(inputMatrix); i++ {
-		var minofRow float32 = math.MaxInt16
+		var minofRow float64 = math.MaxFloat64
 		for j := 0; j < len(inputMatrix[i]); j++ {
 			if inputMatrix[i][j] < minofRow {
 				minofRow = inputMatrix[i][j]
@@ -118,11 +196,11 @@ func getminIndicesByRow(inputMatrix [][]float32) []indexValuePair {
 	return result
 }
 
-func getminIndicesByCol(inputMatrix [][]float32) []indexValuePair {
+func getminIndicesByCol(inputMatrix [][]float64) []indexValuePair {
 
 	result := make([]indexValuePair, len(inputMatrix[0]))
 	for j := 0; j < len(inputMatrix[0]); j++ {
-		var minofCol float32 = math.MaxInt16
+		var minofCol float64 = math.MaxFloat64
 		for i := 0; i < len(inputMatrix); i++ {
 			if inputMatrix[i][j] < minofCol {
 				minofCol = inputMatrix[i][j]
@@ -135,10 +213,10 @@ func getminIndicesByCol(inputMatrix [][]float32) []indexValuePair {
 	return result
 }
 
-func getmaxIndicesByRow(inputMatrix [][]float32) []indexValuePair {
+func getmaxIndicesByRow(inputMatrix [][]float64) []indexValuePair {
 	result := make([]indexValuePair, len(inputMatrix))
 	for i := 0; i < len(inputMatrix); i++ {
-		var maxofRow float32 = -1.0
+		var maxofRow float64 = -math.MaxFloat64
 		for j := 0; j < len(inputMatrix[i]); j++ {
 			if inputMatrix[i][j] > maxofRow {
 				maxofRow = inputMatrix[i][j]
@@ -151,10 +229,10 @@ func getmaxIndicesByRow(inputMatrix [][]float32) []indexValuePair {
 	return result
 }
 
-func getmaxIndicesByCol(inputMatrix [][]float32) []indexValuePair {
+func getmaxIndicesByCol(inputMatrix [][]float64) []indexValuePair {
 	result := make([]indexValuePair, len(inputMatrix[0]))
 	for j := 0; j < len(inputMatrix[0]); j++ {
-		var maxofCol float32 = -1.0
+		var maxofCol float64 = -math.MaxFloat64
 		for i := 0; i < len(inputMatrix); i++ {
 			if inputMatrix[i][j] > maxofCol {
 				maxofCol = inputMatrix[i][j]
@@ -168,7 +246,7 @@ func getmaxIndicesByCol(inputMatrix [][]float32) []indexValuePair {
 }
 
 func getMaxIndexValuePair(inputMatrix []indexValuePair) indexValuePair {
-	var max float32 = -1
+	var max float64 = -math.MaxFloat64
 	var maxPair indexValuePair
 	for i := 0; i < len(inputMatrix); i++ {
 		if inputMatrix[i].value > max {
@@ -180,7 +258,7 @@ func getMaxIndexValuePair(inputMatrix []indexValuePair) indexValuePair {
 }
 
 func getMinIndexValuePair(inputMatrix []indexValuePair) indexValuePair {
-	var min float32 = math.MaxInt16
+	var min float64 = math.MaxFloat64
 	var minPair indexValuePair
 	for i := 0; i < len(inputMatrix); i++ {
 		if inputMatrix[i].value < min {
@@ -191,10 +269,10 @@ func getMinIndexValuePair(inputMatrix []indexValuePair) indexValuePair {
 	return minPair
 }
 
-func shrinkMatrixRow(inputMatrix [][]float32, rowRemoved int) [][]float32 {
-	result := make([][]float32, len(inputMatrix)-1)
+func shrinkMatrixRow(inputMatrix [][]float64, rowRemoved int) [][]float64 {
+	result := make([][]float64, len(inputMatrix)-1)
 	for c := range result {
-		result[c] = make([]float32, len(inputMatrix[c]))
+		result[c] = make([]float64, len(inputMatrix[c]))
 	}
 	if len(inputMatrix) == 1 {
 		return inputMatrix
