@@ -19,39 +19,37 @@ type SimpleChaincode struct {
 }
 
 type indexValuePair struct {
-	row int
-	col int
+	row   int
+	col   int
 	value float64
 }
 
 type TaskMatching struct {
-	identifier string `json:"id"`       //docType is used to distinguish the various types of objects in state database
+	identifier string      `json:"id"`       //docType is used to distinguish the various types of objects in state database
 	Runtimes   [][]float64 `json:"runtimes"` //the fieldtags are needed to keep case from bouncing around
-	VarMax int `json:"varmax"`
-	VarMin int `json:"varmin"`
+	VarMax     int         `json:"varmax"`
+	VarMin     int         `json:"varmin"`
 }
 
 type Peer struct {
-	identifier string `json:"id"`
-	Status     string `json:"status"`
-	CompletionTime    float64    `json:"CompletionTime"`
-	Name       string `json:"name"`
+	identifier     string  `json:"id"`
+	Status         string  `json:"status"`
+	CompletionTime float64 `json:"CompletionTime"`
+	Name           string  `json:"name"`
 }
 
 type TaskMatchingSol struct {
-	identifier string `json:"id"`
-	CompletionTime    float64    `json:"CompletionTime"`
-	Owner      string `json:"owner"`
-	Algorithm  string `json:"alg"`
-	Runtimes   [][]float64 `json:"runtimes"`
+	identifier     string      `json:"id"`
+	CompletionTime float64     `json:"CompletionTime"`
+	Owner          string      `json:"owner"`
+	Algorithm      string      `json:"alg"`
+	Runtimes       [][]float64 `json:"runtimes"`
 }
 
 type Count struct {
 	identifier string `json:"id"`
 	Counter    int    `json:"count"`
 }
-
-
 
 // Position : this contains the currrent position and the point's fitness value
 type Position struct {
@@ -122,7 +120,7 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 func (t *SimpleChaincode) Initialize(stub shim.ChaincodeStubInterface) pb.Response {
 	var err error
 
-	p1 := &Peer{"p1", "waiting", -1, "Peer 1"}
+	p1 := &Peer{"p1", "waiting", -1, "Peer 1 MIN-MIN-TASK"}
 	p1JSONasBytes, _ := json.Marshal(p1)
 
 	err = stub.PutState("p1", p1JSONasBytes) //write the peer
@@ -130,7 +128,7 @@ func (t *SimpleChaincode) Initialize(stub shim.ChaincodeStubInterface) pb.Respon
 		return shim.Error(err.Error())
 	}
 
-	p2 := &Peer{"p2", "waiting", -1, "Peer 2"}
+	p2 := &Peer{"p2", "waiting", -1, "Peer 2 MIN-MAX-TASK"}
 	p2JSONasBytes, _ := json.Marshal(p2)
 
 	err = stub.PutState("p2", p2JSONasBytes) //write the peer
@@ -138,7 +136,7 @@ func (t *SimpleChaincode) Initialize(stub shim.ChaincodeStubInterface) pb.Respon
 		return shim.Error(err.Error())
 	}
 
-	p3 := &Peer{"p3", "waiting", -1, "Peer 3"}
+	p3 := &Peer{"p3", "waiting", -1, "Peer 3 MAX-MIN-TASK"}
 	p3JSONasBytes, _ := json.Marshal(p3)
 
 	err = stub.PutState("p3", p3JSONasBytes) //write the peer
@@ -146,7 +144,7 @@ func (t *SimpleChaincode) Initialize(stub shim.ChaincodeStubInterface) pb.Respon
 		return shim.Error(err.Error())
 	}
 
-	p4 := &Peer{"p4", "waiting", -1, "Peer 4"}
+	p4 := &Peer{"p4", "waiting", -1, "Peer 4 MIN-MAX-RESOURCE"}
 	p4JSONasBytes, _ := json.Marshal(p4)
 
 	err = stub.PutState("p4", p4JSONasBytes) //write the peer
@@ -154,7 +152,7 @@ func (t *SimpleChaincode) Initialize(stub shim.ChaincodeStubInterface) pb.Respon
 		return shim.Error(err.Error())
 	}
 
-	p5 := &Peer{"p5", "waiting", -1, "Peer 5"}
+	p5 := &Peer{"p5", "waiting", -1, "Peer 5 MAX-MIN-RESOURCE"}
 	p5JSONasBytes, _ := json.Marshal(p5)
 
 	err = stub.PutState("p5", p5JSONasBytes) //write the peer
@@ -162,7 +160,7 @@ func (t *SimpleChaincode) Initialize(stub shim.ChaincodeStubInterface) pb.Respon
 		return shim.Error(err.Error())
 	}
 
-	p6 := &Peer{"p6", "waiting", -1, "Peer 6"}
+	p6 := &Peer{"p6", "waiting", -1, "Peer 6 PSO"}
 	p6JSONasBytes, _ := json.Marshal(p6)
 
 	err = stub.PutState("p6", p6JSONasBytes) //write the peer
@@ -176,7 +174,7 @@ func (t *SimpleChaincode) Initialize(stub shim.ChaincodeStubInterface) pb.Respon
 	err = stub.PutState("p7", p7JSONasBytes) //write the peer
 	if err != nil {
 		return shim.Error(err.Error())
-	}	
+	}
 
 	count := &Count{"count", 0}
 	countAsBytes, _ := json.Marshal(count)
@@ -240,25 +238,23 @@ func Assign(matrix [][]float64, peer string, varMax int, varMin int) float64 {
 	var timeCost float64
 	timeCost = -1
 	if peer == "p1" {
-		timeCost = assignTask(matrix,"MIN-MIN-TASK")
+		timeCost = assignTask(matrix, "MIN-MIN-TASK")
 	} else if peer == "p2" {
-		timeCost = assignTask(matrix,"MIN-MAX-TASK")
+		timeCost = assignTask(matrix, "MIN-MAX-TASK")
 	} else if peer == "p3" {
-		timeCost = assignTask(matrix,"MAX-MIN-TASK")
+		timeCost = assignTask(matrix, "MAX-MIN-TASK")
 	} else if peer == "p4" {
-		timeCost = assignTask(matrix,"MIN-MAX-RESOURCE")
+		timeCost = assignTask(matrix, "MIN-MAX-RESOURCE")
 	} else if peer == "p5" {
-	 	timeCost = assignTask(matrix,"MAX-MIN-RESOURCE")
+		timeCost = assignTask(matrix, "MAX-MIN-RESOURCE")
 	} else if peer == "p6" {
-		var newproblem = Problem{varMax, 0,varMin} 
-		gbest, _  := pso(newproblem, matrix, 500, 100, 1.796180, 1.796180, 0.729844, 0.995)
+		var newproblem = Problem{varMax, 0, varMin}
+		gbest, _ := pso(newproblem, matrix, 500, 100, 1.796180, 1.796180, 0.729844, 0.995)
 		timeCost = gbest.cost
 	}
 
-	
-	return  timeCost
+	return timeCost
 }
-
 
 func (t *SimpleChaincode) allPeersDone(stub shim.ChaincodeStubInterface) bool {
 	peerArray := [6]string{"p1", "p2", "p3", "p4", "p5", "p6"}
@@ -311,25 +307,25 @@ func (t *SimpleChaincode) setBestSol(stub shim.ChaincodeStubInterface) pb.Respon
 
 	json.Unmarshal(countAsBytes, &tmpCount)
 
-	tmpCount.Counter += 1
+	tmpCount.Counter++
 	solNum := strconv.Itoa(tmpCount.Counter)
 
 	var algName string
 
 	//find which algorithm was used to calculate the solution.
-	if solPeer.Name == "Peer 1" {
+	if solPeer.Name == "Peer 1 MIN-MIN-TASK" {
 		algName = "MIN-MIN-TASK"
-	} else if solPeer.Name == "Peer 2" {
+	} else if solPeer.Name == "Peer 2 MIN-MAX-TASK" {
 		algName = "MIN-MAX-TASK"
-	} else if solPeer.Name == "Peer 3" {
+	} else if solPeer.Name == "Peer 3 MAX-MIN-TASK" {
 		algName = "MAX-MIN-TASK"
-	} else if solPeer.Name == "Peer 4" {
+	} else if solPeer.Name == "Peer 4 MIN-MAX-RESOURCE" {
 		algName = "MIN-MAX-RESOURCE"
-	} else if solPeer.Name == "Peer 5" {
+	} else if solPeer.Name == "Peer 5 MAX-MIN-RESOURCE" {
 		algName = "MAX-MIN-RESOURCE"
-	} else if solPeer.Name == "Peer 6" {
+	} else if solPeer.Name == "Peer 6 PSO" {
 		algName = "PSO"
-	} 
+	}
 
 	TMSol := TaskMatchingSol{solNum, solPeer.CompletionTime, solPeer.Name, algName, tmpTM.Runtimes}
 
@@ -423,8 +419,8 @@ func (t *SimpleChaincode) readTaskMatching(stub shim.ChaincodeStubInterface, arg
 	return shim.Success(TaskMatchingAsbytes)
 }
 
-func Decimal(value float64) float64{
-	value,_ = strconv.ParseFloat( fmt.Sprintf("%.2f", value), 64)
+func Decimal(value float64) float64 {
+	value, _ = strconv.ParseFloat(fmt.Sprintf("%.2f", value), 64)
 	return value
 }
 
@@ -473,9 +469,7 @@ func ETCgenerator(task int, resource int, taskHetero string, resourceHetero stri
 	return result
 }
 
-
-
-func assignTask(inputMatrix [][]float64, input string) float64{
+func assignTask(inputMatrix [][]float64, input string) float64 {
 	var emptyArr []indexValuePair
 	var emptyArr1 []float64
 	tempMatrix := inputMatrix
@@ -493,50 +487,49 @@ func assignTask(inputMatrix [][]float64, input string) float64{
 
 func helper(inputMatrix [][]float64, result []indexValuePair, timespent []float64, input string) []float64 {
 	if len(inputMatrix) == 1 {
-		var incides  []indexValuePair
-		inputArr := strings.Split(input,"-")
+		var incides []indexValuePair
+		inputArr := strings.Split(input, "-")
 
-		if inputArr[0]=="MIN" && inputArr[2]=="TASK"{
+		if inputArr[0] == "MIN" && inputArr[2] == "TASK" {
 			incides = getminIndicesByRow(inputMatrix)
-		}else if inputArr[0]=="MAX" && inputArr[2]=="TASK"{
+		} else if inputArr[0] == "MAX" && inputArr[2] == "TASK" {
 			incides = getmaxIndicesByRow(inputMatrix)
-		}else if inputArr[0]=="MIN" && inputArr[2]=="RESOURCE"{
+		} else if inputArr[0] == "MIN" && inputArr[2] == "RESOURCE" {
 			incides = getminIndicesByCol(inputMatrix)
-		}else if inputArr[0]=="MAX" && inputArr[2]=="RESOURCE"{
+		} else if inputArr[0] == "MAX" && inputArr[2] == "RESOURCE" {
 			incides = getmaxIndicesByCol(inputMatrix)
 		}
 
 		var valuePair indexValuePair
-		if inputArr[1]=="MIN"{
-			valuePair = getMinIndexValuePair(incides) 
-		}else{
-			valuePair = getMaxIndexValuePair(incides) 
+		if inputArr[1] == "MIN" {
+			valuePair = getMinIndexValuePair(incides)
+		} else {
+			valuePair = getMaxIndexValuePair(incides)
 		}
-	
+
 		result = append(result, valuePair)
 		timespent = append(timespent, valuePair.value)
 		return timespent
 	}
-	
-	var incides []indexValuePair
-	inputArr := strings.Split(input,"-")
 
-	if inputArr[0]=="MIN" && inputArr[2]=="TASK"{
+	var incides []indexValuePair
+	inputArr := strings.Split(input, "-")
+
+	if inputArr[0] == "MIN" && inputArr[2] == "TASK" {
 		incides = getminIndicesByRow(inputMatrix)
-	}else if inputArr[0]=="MAX" && inputArr[2]=="TASK"{
+	} else if inputArr[0] == "MAX" && inputArr[2] == "TASK" {
 		incides = getmaxIndicesByRow(inputMatrix)
-	}else if inputArr[0]=="MIN" && inputArr[2]=="RESOURCE"{
+	} else if inputArr[0] == "MIN" && inputArr[2] == "RESOURCE" {
 		incides = getminIndicesByCol(inputMatrix)
-	}else if inputArr[0]=="MAX" && inputArr[2]=="RESOURCE"{
+	} else if inputArr[0] == "MAX" && inputArr[2] == "RESOURCE" {
 		incides = getmaxIndicesByCol(inputMatrix)
 	}
-	
 
 	var valuePair indexValuePair
-	if inputArr[1]=="MIN"{
-		valuePair = getMinIndexValuePair(incides) 
-	}else{
-		valuePair = getMaxIndexValuePair(incides) 
+	if inputArr[1] == "MIN" {
+		valuePair = getMinIndexValuePair(incides)
+	} else {
+		valuePair = getMaxIndexValuePair(incides)
 	}
 
 	tempMatrix := shrinkMatrixRow(inputMatrix, valuePair.row)
@@ -656,8 +649,6 @@ func shrinkMatrixRow(inputMatrix [][]float64, rowRemoved int) [][]float64 {
 	return result
 }
 
-
-
 // PSO
 
 func multiplyNumAndArr(factor float64, arrIn []float64) []float64 {
@@ -734,7 +725,6 @@ func evaluate(inputMatrix [][]float64, inputSol []int) float64 {
 	return maxCompletion
 }
 
-
 func pso(inputProblem Problem, inputMatrix [][]float64, maxIter int, popSize int, c1 float64, c2 float64, w float64, wdamp float64) (Position, []Particle) {
 	// Initialize an empty object of type "Particle"
 	var emptyParticle Particle
@@ -803,4 +793,3 @@ func pso(inputProblem Problem, inputMatrix [][]float64, maxIter int, popSize int
 	}
 	return gBest, pop
 }
-
