@@ -187,6 +187,8 @@ func (t *SimpleChaincode) Initialize(stub shim.ChaincodeStubInterface) pb.Respon
 }
 
 func (t *SimpleChaincode) calculateTaskMatching(stub shim.ChaincodeStubInterface, args []string) pb.Response {
+	var jsonResp string
+
 	//Get the Task Math matrix
 	TaskMatchAsBytes, _ := stub.GetState("work")
 	tmpTM := TaskMatching{}
@@ -197,15 +199,21 @@ func (t *SimpleChaincode) calculateTaskMatching(stub shim.ChaincodeStubInterface
 	matrix := tmpTM.Runtimes
 
 	//pass matrix to solution calculator
-	var sol []indexValuePair
 	var runtime float64
 
-	sol, runtime = Assign(matrix, args[0], tmpTM.VarMax, tmpTM.VarMin)
-
-	fmt.Println(sol)
+	runtime = Assign(matrix, args[0], tmpTM.VarMax, tmpTM.VarMin)
 
 	//change Peer info
-	PeerasBytes, _ := stub.GetState(args[0])
+	PeerasBytes, err := stub.GetState(args[0])
+
+	if err != nil {
+		jsonResp = "{\"Error\":\"Failed to get state for " + args[0] + "\"}"
+		return shim.Error(jsonResp)
+	} else if PeerasBytes == nil {
+		jsonResp = "{\"Error\":\"Peer does not exist: " + args[0] + "\"}"
+		return shim.Error(jsonResp)
+	}
+
 	tmpPeer := Peer{}
 
 	json.Unmarshal(PeerasBytes, &tmpPeer)
@@ -227,39 +235,33 @@ func strToMatrix(input string) [][]float64 {
 	return parsed
 }
 
-func Assign(matrix [][]float64, peer string, varMax int, varMin int) ([]indexValuePair, float64) {
-	var sol []indexValuePair
+func Assign(matrix [][]float64, peer string, varMax int, varMin int) float64 {
 	rand.Seed(time.Now().UnixNano())
 	var timeCost float64
 	timeCost = -1
 	if peer == "p1" {
-		sol, timeCost = assignTask(matrix,"MIN-MIN-TASK")
+		timeCost = assignTask(matrix,"MIN-MIN-TASK")
 	} else if peer == "p2" {
-		sol, timeCost = assignTask(matrix,"MIN-MAX-TASK")
+		timeCost = assignTask(matrix,"MIN-MAX-TASK")
 	} else if peer == "p3" {
-		sol, timeCost = assignTask(matrix,"MAX-MIN-TASK")
+		timeCost = assignTask(matrix,"MAX-MIN-TASK")
 	} else if peer == "p4" {
-		sol, timeCost = assignTask(matrix,"MIN-MIN-RESOURCE")
+		timeCost = assignTask(matrix,"MIN-MAX-RESOURCE")
 	} else if peer == "p5" {
-		sol, timeCost = assignTask(matrix,"MIN-MAX-RESOURCE")
+	 	timeCost = assignTask(matrix,"MAX-MIN-RESOURCE")
 	} else if peer == "p6" {
-	 	sol, timeCost = assignTask(matrix,"MAX-MIN-RESOURCE")
-	} else if peer == "p7" {
 		var newproblem = Problem{varMax, 0,varMin} 
 		gbest, _  := pso(newproblem, matrix, 500, 100, 1.796180, 1.796180, 0.729844, 0.995)
 		timeCost = gbest.cost
-		sol = nil
 	}
 
-	fmt.Println(sol)
-	fmt.Println(timeCost)
 	
-	return sol, timeCost
+	return  timeCost
 }
 
 
 func (t *SimpleChaincode) allPeersDone(stub shim.ChaincodeStubInterface) bool {
-	peerArray := [7]string{"p1", "p2", "p3", "p4", "p5", "p6", "p7"}
+	peerArray := [6]string{"p1", "p2", "p3", "p4", "p5", "p6"}
 	tmpPeer := Peer{}
 
 	//loop over all of the peers
@@ -280,7 +282,7 @@ func (t *SimpleChaincode) allPeersDone(stub shim.ChaincodeStubInterface) bool {
 
 //Method to set the best solution
 func (t *SimpleChaincode) setBestSol(stub shim.ChaincodeStubInterface) pb.Response {
-	peerArray := [7]string{"p1", "p2", "p3", "p4", "p5", "p6", "p7"}
+	peerArray := [6]string{"p1", "p2", "p3", "p4", "p5", "p6"}
 	tmpPeer := Peer{}
 	solPeer := Peer{}
 	// var min float64 = math.MaxFloat64
@@ -322,12 +324,10 @@ func (t *SimpleChaincode) setBestSol(stub shim.ChaincodeStubInterface) pb.Respon
 	} else if solPeer.Name == "Peer 3" {
 		algName = "MAX-MIN-TASK"
 	} else if solPeer.Name == "Peer 4" {
-		algName = "MIN-MIN-RESOURCE"
-	} else if solPeer.Name == "Peer 5" {
 		algName = "MIN-MAX-RESOURCE"
-	} else if solPeer.Name == "Peer 6" {
+	} else if solPeer.Name == "Peer 5" {
 		algName = "MAX-MIN-RESOURCE"
-	} else if solPeer.Name == "Peer 7" {
+	} else if solPeer.Name == "Peer 6" {
 		algName = "PSO"
 	} 
 
@@ -475,11 +475,11 @@ func ETCgenerator(task int, resource int, taskHetero string, resourceHetero stri
 
 
 
-func assignTask(inputMatrix [][]float64, input string) ([]indexValuePair, float64) {
+func assignTask(inputMatrix [][]float64, input string) float64{
 	var emptyArr []indexValuePair
 	var emptyArr1 []float64
 	tempMatrix := inputMatrix
-	choices, timespent := helper(tempMatrix, emptyArr, emptyArr1, input) // choices contains the row and col number of the original matrix
+	timespent := helper(tempMatrix, emptyArr, emptyArr1, input) // choices contains the row and col number of the original matrix
 	var timeCost float64
 	timeCost = -1
 	fmt.Println(timespent)
@@ -488,10 +488,10 @@ func assignTask(inputMatrix [][]float64, input string) ([]indexValuePair, float6
 			timeCost = timespent[i]
 		}
 	}
-	return choices, timeCost
+	return timeCost
 }
 
-func helper(inputMatrix [][]float64, result []indexValuePair, timespent []float64, input string) ([]indexValuePair, []float64) {
+func helper(inputMatrix [][]float64, result []indexValuePair, timespent []float64, input string) []float64 {
 	if len(inputMatrix) == 1 {
 		var incides  []indexValuePair
 		inputArr := strings.Split(input,"-")
@@ -515,7 +515,7 @@ func helper(inputMatrix [][]float64, result []indexValuePair, timespent []float6
 	
 		result = append(result, valuePair)
 		timespent = append(timespent, valuePair.value)
-		return result, timespent
+		return timespent
 	}
 	
 	var incides []indexValuePair
